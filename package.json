@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "book_bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram bot for working with books and PDFs",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "pdf-parse": "^2.4.5",
+    "telegraf": "^4.16.3"
+  }
+}
