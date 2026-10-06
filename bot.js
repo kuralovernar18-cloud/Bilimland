@@ -564,11 +564,10 @@ async function verifyKaspiReceipt(
         }
 
         // Читаем PDF
-        const data =
-            await pdfParse(buffer);
-
-        const text =
-            data.text || '';
+const parser = new PDFParse({ data: buffer });
+const result = await parser.getText();
+const text = result.text || '';
+await parser.destroy();
 
         if (!text.trim()) {
 
