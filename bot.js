@@ -16,7 +16,7 @@ const MANAGER_ID = 8054554420;
 
 const KASPI_PAYMENT_URL =
     process.env.KASPI_PAYMENT_URL ||
-    'https://pay.kaspi.kz/pay/azxk1ua';
+    'https://pay.kaspi.kz/pay/azxk1ua5';
 
 const RECIPIENT_NAME =
     process.env.RECIPIENT_NAME || 'ИП АБЛ';
@@ -1250,6 +1250,8 @@ ${priceText}
 1️⃣ Kaspi арқылы төлем жасаңыз.
 2️⃣ Төлемнен кейін Kaspi чегін PDF форматында жүктеп алыңыз.
 3️⃣ Осы ботқа PDF чекті жіберіңіз.
+
+⚠️ *Оплатите всю сумму одним платежом. Частичная оплата не принимается.*
 
 ⚠️ *Чек PDF форматында болуы керек.*`,
 
