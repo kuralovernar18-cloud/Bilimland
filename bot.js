@@ -4,7 +4,7 @@ const { Telegraf } = require('telegraf');
 const path = require('path');
 const fs = require('fs');
 const crypto = require('crypto');
-const pdfParse = require('pdf-parse');
+const { PDFParse } = require('pdf-parse');
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
